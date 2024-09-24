@@ -1,0 +1,35 @@
+{
+  "name": "type02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.ts",
+    "run": "nodemon index.ts",
+    "postinstall": "prisma generate",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.6.1",
+    "json-server": "^1.0.0-beta.3",
+    "prisma": "^5.19.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "nodemon": "^3.1.7",
+    "readdirp": "^4.0.1",
+    "regexparam": "^3.0.0",
+    "tsconfig.json": "^1.0.11"
+  }
+}
